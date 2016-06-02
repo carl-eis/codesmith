@@ -13,3 +13,16 @@ These will install dependencies.
 To create your empty directories, run 
 	
 	$ mkdir -p src/{content,images,styles,scripts} && mkdir -p templates/partials
+
+###2. Install Globals
+If you would like to run a server, instal:
+
+	$ npm install -g metalsmith
+	$ npm install -g metalsmith-watch
+
+Then run `metalsmith-watch` and your server will be up!
+
+###Packages Used:
+- Handlebars
+- SCSS
+- Markdown
