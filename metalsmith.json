@@ -1,10 +1,18 @@
 {
   "source": "src",
   "destination": "build",
-  "plugins": [
-    {"metalsmith-drafts": true},
-    {"metalsmith-markdown": false},
-    {"metalsmith-permalinks": "posts/:title"},
-    {"metalsmith-templates": "handlebars"}
-  ]
+  "plugins": {
+    "metalsmith-drafts": false,
+    "metalsmith-markdown": {
+      "smartypants": true,
+      "gfm": true,
+      "tables": true
+    },
+    "metalsmith-layouts":{
+  		"engine": "handlebars",
+    	"directory": "templates",
+      "default": "main.hbs",
+      "partials": "partials"
+    }
+  }
 }

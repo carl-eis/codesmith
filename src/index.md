@@ -1,9 +1,4 @@
 ---
-title: Home
-template: home.hbs
+title: Testing!
 ---
-#This is a start page!
-We rendered all this text from markdown!
-
-###This is an H3
-
+This is a test.
