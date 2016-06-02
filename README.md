@@ -9,4 +9,7 @@ To get started, use
 
 These will install dependencies.
 
-More to come.
+###1. Set up directories
+To create your empty directories, run 
+	
+	$ mkdir -p src/{content,images,styles,scripts} && mkdir -p templates/partials
