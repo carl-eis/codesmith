@@ -1,4 +1,6 @@
 ---
 title: Testing!
+layout: main.hbs
 ---
-This is a test.
+
+<h1>This is a test.</h1>

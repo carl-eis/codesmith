@@ -1,5 +1,6 @@
 ---
 title: About Us
+layout: main.hbs
 ---
 
 #Test H1

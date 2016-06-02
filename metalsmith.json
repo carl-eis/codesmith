@@ -11,8 +11,11 @@
     "metalsmith-layouts":{
   		"engine": "handlebars",
     	"directory": "templates",
-      "default": "main.hbs",
       "partials": "partials"
+    },
+    "metalsmith-sass": {
+      "outputStyle": "expanded",
+      "outputDir": "css/"
     }
   }
 }
