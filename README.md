@@ -1,11 +1,20 @@
-#MetalSmith Template
-Created by [CodeLab]www.codelab.io
+#CodeSmith
+###A Metalsmith Site Generator
+Created by [CodeLab](http://www.codelab.io)
 
 This is a template for building a static site using handlebars.
-To get started, use
+To get started, clone the repository:
+
+	$ git clone https://github.com/carl-eis/codesmith.git
+
+OR if you use SSH,
+
+	$ git clone git@github.com:carl-eis/codesmith.git
+
+Now, install your globals:
 
 	$ npm install -g metalsmith
-	$ npm install -g metalsmith-watch
+	$ npm install -g metalsmith-start 
 
 Then install the dependencies
 
@@ -18,7 +27,7 @@ To compile your website for the first time, run
 	
 	$ metalsmith
 
-Then run `metalsmith-watch` and your server will be up!
+Then run `metalsmith-start` and your server will be up!
 
 ###Packages Used:
 - Handlebars

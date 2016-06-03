@@ -11,12 +11,14 @@
   "devDependencies": {
     "handlebars": "^4.0.5",
     "metalsmith": "^2.1.0",
+    "metalsmith-copy-assets-540": "^1.0.0",
     "metalsmith-drafts": "0.0.1",
     "metalsmith-layouts": "^1.6.5",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-sass": "^1.3.0",
     "metalsmith-start": "^2.0.1",
-    "metalsmith-templates": "^0.7.0"
+    "metalsmith-templates": "^0.7.0",
+    "metalsmith-watch": "^1.0.2"
   }
 }

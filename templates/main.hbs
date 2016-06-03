@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8" />
     <title>{{ title }}</title>
+    <link rel="stylesheet" href="dependencies/bootstrap.min.css">
     <link rel="stylesheet" href="css/driver.css">
 </head>
 <body>
+	{{> navbar }}
+
+
+
+
+
     <div class="main-wrapper">
         {{{ contents }}}
     </div>
-
+    <script src="dependencies/jquery.min.js"></script>
+    <script src="dependencies/bootstrap.min.js"></script>
 </body>
 </html>

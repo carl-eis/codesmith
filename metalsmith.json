@@ -16,6 +16,14 @@
     "metalsmith-sass": {
       "outputStyle": "expanded",
       "outputDir": "css/"
+    },
+    "metalsmith-copy-assets-540":{
+      "src":[
+        "bower_components/bootstrap/dist/css/bootstrap.min.css",
+        "bower_components/bootstrap/dist/js/bootstrap.min.js",
+        "bower_components/jquery/dist/jquery.min.js"
+      ],
+      "dest": "dependencies/"
     }
   }
 }
