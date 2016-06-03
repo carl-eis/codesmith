@@ -1,4 +1,14 @@
+/*==============================================================================*\
+	Driver Class
+	- Import other CSS files here
+\*==============================================================================*/
+
+/* Colours and other templates go here */
+
+/* Main page goes here */
 @import "main.scss";
-.text-class{
-	font-size: 20px;
-}
+
+/* Other pages fall in here */
+
+/* Media queries go here */
+@import "_media-queries.scss";
