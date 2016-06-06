@@ -1,6 +1,7 @@
 ---
 title: About Us
 layout: main.hbs
+projectTitle: My Website Name
 ---
 
 #Test H1
