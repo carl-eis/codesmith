@@ -3,11 +3,12 @@
   "destination": "build",
   "plugins": {
     "metalsmith-drafts": false,
-    "metalsmith-markdown": {
+/*    "metalsmith-markdown": {
       "smartypants": true,
       "gfm": true,
       "tables": true
     },
+*/
     "metalsmith-layouts":{
   		"engine": "handlebars",
     	"directory": "templates",
